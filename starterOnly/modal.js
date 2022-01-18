@@ -138,11 +138,19 @@ function validateEmail() {
 
 // function which validate the input "Date de naissance"
 function validateBirthday() {
-	let today = new Date();
-	let dateLimit = today.getDate() + today.getMonth() + (today.getFullYear - 3);
+	let today = new Date(new Date().getTime() - 1095 * 24 * 60 * 60 * 1000);
+	let day = today.getDate();
+	let month = today.getMonth() + 1;
+	let year = today.getFullYear();
+
+	let dateLimit = year + "-" + month + "-" + day;
+
+	console.log(today);
+	console.log(dateLimit);
+	console.log(birthday.value);
 
 	//add error message by getting a span ID of this specific input
-	if (birthday.value == "" || birthday.value >= dateLimit.value) {
+	if (birthday.value == "" || birthday.value > dateLimit) {
 		document.getElementById("errorBirthday").innerHTML =
 			"Vous devez entrer votre date de naissance.";
 		return false;
