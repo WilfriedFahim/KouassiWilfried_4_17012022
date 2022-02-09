@@ -14,4 +14,4 @@ Vous avez fait du shadowing de votre développeur principal, Erika, pour suivre 
 ✅ Programmer en JavaScript
 
 
-💻 LINK: https://wilfriedfahim.github.io/Kouassiwilfried_3_15112021/
+💻 LINK: https://wilfriedfahim.github.io/P3_GameOn-website/starterOnly/
