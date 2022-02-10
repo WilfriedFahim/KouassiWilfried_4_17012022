@@ -1,6 +1,6 @@
 ## Projet N°4 : Créez une landing page avec Javascript (GameOn)
 
-### ➡️ INTRODUCTION : 
+### ➡️ Introduction
 
 Vous avez récemment été embauché comme développeur Front-End junior dans une PME, GameOn, spécialisée dans les conférences et les concours de jeux. 
 Vous avez fait du shadowing de votre développeur principal, Erika, pour suivre son travail au quotidien.
@@ -14,4 +14,4 @@ Vous avez fait du shadowing de votre développeur principal, Erika, pour suivre 
 1. ✅ Programmer en JavaScript
 
 
-### 💻 LINK: https://wilfriedfahim.github.io/P4_GameOn-website/starterOnly/
+### 💻 Link : https://wilfriedfahim.github.io/P4_GameOn-website/starterOnly/
